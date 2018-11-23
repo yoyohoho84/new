@@ -1,0 +1,14 @@
+
+
+.slider {
+
+    width: auto; /* Ширина слоя */
+    height: 70% ;
+    z-index: 1;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+
+
+}
+
