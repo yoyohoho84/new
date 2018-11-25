@@ -19,12 +19,12 @@ class App extends Component {
         return (
             <BrowserRouter>
                 <Switch>
-                    <Route path="https://yoyohoho84.github.io/new/" component={HomePage} exact/>
-                    <Route path="https://yoyohoho84.github.io/new/info" component={InfoPage} exact/>
-                    <Route path="https://yoyohoho84.github.io/new/registration" component={RegPage} exact/>
-                    <Route path="https://yoyohoho84.github.io/new/login" component={PrivatePage} exact/>
-                    <Route path="https://yoyohoho84.github.io/new/hero" component={CharactersPage} exact/>
-                    <Route path="https://yoyohoho84.github.io/new/infohero/:id" component={HeroPage} exact/>
+                    <Route path="/" component={HomePage} exact/>
+                    <Route path="/info" component={InfoPage} exact/>
+                    <Route path="/registration" component={RegPage} exact/>
+                    <Route path="/login" component={PrivatePage} exact/>
+                    <Route path="/hero" component={CharactersPage} exact/>
+                    <Route path="/infohero/:id" component={HeroPage} exact/>
                     </Switch>
             </BrowserRouter>
         );
