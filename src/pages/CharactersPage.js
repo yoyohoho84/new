@@ -1,9 +1,10 @@
 import React, {Component} from 'react';
 import axios from 'axios';
 import MainTemplateReg from '../templates/MainTemplateReg';
+import Pagination from '../atoms/pagination/Pagination';
 import style from "../atoms/Square.module.css";
 // import TablePagination from '@material-ui/core/TablePagination';
-import {Pagination, Tabs} from "react-materialize";
+// import {Pagination, Tabs} from "react-materialize";
 
 
 
@@ -91,7 +92,7 @@ class CharactersPage extends Component {
 
 
 
-                <Pagination items={10} activePage={2} maxButtons={8} />
+                <Pagination onChangePage={}/>
 
 
             </MainTemplateReg>
